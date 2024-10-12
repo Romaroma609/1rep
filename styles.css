@@ -1,0 +1,55 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.block-a {
+  width: 100%;
+  height: 400px;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  padding-top: 100px;
+  background: #f0f0f0;
+}
+
+.block-b {
+  width: 400px;
+  height: 200px;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: 10px; /* Щоб забезпечити відступ від краю */
+}
+
+.block-c {
+  width: 110px;
+  height: 100px;
+  background: #f0f0f0;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 10px; /* Щоб забезпечити відступ від краю */
+}
+
+.block-d {
+  width: 80px;
+  height: 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #f0f0f0;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
